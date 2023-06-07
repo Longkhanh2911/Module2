@@ -8,13 +8,13 @@ public class Operator {
         float Width;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("nhập Height ");
+        System.out.println("nhập Heigth: ");
         Height = scanner.nextFloat();
 
-        System.out.println("nhập Width ");
+        System.out.println("nhập Width: ");
         Width = scanner.nextFloat();
 
-        float rectangularArea = Height * Width; // rectangular Area: hình chữ nhật
+        float rectangularArea = Height * Width; // rectangularArea: DT hình chữ nhật
         System.out.println(rectangularArea);
     }
 }
